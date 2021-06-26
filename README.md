@@ -17,7 +17,7 @@ data.** Check the [mango markets gui code](https://github.com/blockworks-foundat
   So far the following variables exist:
 
 ```
-REDISCLOUD_URL: redis connection url
+REDIS_URL: redis connection url
 REDIS_MAX_CONN: maximum number of concurrent connections used by the redis pool
 RPC_ENDPOINT_URL: solana rpc connection url
 INTERVAL: time in seconds to wait between event queue polls
